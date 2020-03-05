@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://limonene0x.github.io</id>
     <title>Limonene0x_Disk</title>
-    <updated>2020-03-05T04:46:49.871Z</updated>
+    <updated>2020-03-05T12:24:17.301Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://limonene0x.github.io"/>
     <link rel="self" href="https://limonene0x.github.io/atom.xml"/>
@@ -11,10 +11,10 @@
     <icon>https://limonene0x.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Limonene0x_Disk</rights>
     <entry>
-        <title type="html"><![CDATA[Hello World]]></title>
-        <id>https://limonene0x.github.io/post/hello-world/</id>
-        <link href="https://limonene0x.github.io/post/hello-world/">
+        <title type="html"><![CDATA[汇编学习-安装MS-DOS之后的尝试]]></title>
+        <id>https://limonene0x.github.io/post/hui-bian-xue-xi-an-zhuang-ms-dos-zhi-hou-de-chang-shi/</id>
+        <link href="https://limonene0x.github.io/post/hui-bian-xue-xi-an-zhuang-ms-dos-zhi-hou-de-chang-shi/">
         </link>
-        <updated>2020-03-05T03:10:44.000Z</updated>
+        <updated>2020-03-05T12:03:31.000Z</updated>
     </entry>
 </feed>

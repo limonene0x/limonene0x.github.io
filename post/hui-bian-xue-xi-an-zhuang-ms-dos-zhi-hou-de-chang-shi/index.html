@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>关于 | Limonene0x_Disk</title>
+<title>汇编学习-安装MS-DOS之后的尝试 | Limonene0x_Disk</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,19 +18,15 @@
 
 
 
-    <meta name="description" content="
-欢迎来到我的分享呀，很高兴遇见你！🤝
+    <meta name="description" content="第一次接触MS-DOS系统
 
-🏠 关于本站
-
-本站是出于学习用途于GitHub搭建的个人静态博客网站，请勿做出其他解读
-
-👨‍💻 博主是谁
-
-我是Limonene0x，当然你也可以叫我数据线，这样比较顺耳
-
-⛹ 兴趣爱好..." />
-    <meta name="keywords" content="" />
+要学习汇编语言，所以就要用到汇编指令，但是！汇编真的很难😭比如下面几种
+mov ax, 1111
+这个指令的意思是把16进制的1111赋值给ax通用寄存器
+真的这个还是以后再说吧
+现在学到的汇编指令如下：
+m..." />
+    <meta name="keywords" content="Study" />
   </head>
   <body>
     <div id="app" class="main">
@@ -113,32 +109,60 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">关于</h2>
-            <div class="post-date">2019-01-25</div>
+            <h2 class="post-title">汇编学习-安装MS-DOS之后的尝试</h2>
+            <div class="post-date">2020-03-05</div>
+            
+              <div class="feature-container" style="background-image: url('https://limonene0x.github.io/post-images/hui-bian-xue-xi-an-zhuang-ms-dos-zhi-hou-de-chang-shi.jpg')">
+              </div>
             
             <div class="post-content" v-pre>
-              <blockquote>
-<p>欢迎来到我的分享呀，很高兴遇见你！🤝</p>
+              <h1 id="第一次接触ms-dos系统">第一次接触MS-DOS系统</h1>
+<ul>
+<li>要学习汇编语言，所以就要用到汇编指令，但是！汇编真的很难😭比如下面几种<br>
+<code>mov ax, 1111</code><br>
+这个指令的意思是把16进制的1111赋值给ax通用寄存器<br>
+真的这个还是以后再说吧</li>
+<li>现在学到的汇编指令如下：<br>
+<code>mov</code><br>
+<code>add</code></li>
+<li>下面我们来说说Debug。</li>
+</ul>
+<h2 id="debug的使用">Debug的使用</h2>
+<ul>
+<li>Debug是32位系统中的一个程序，比如在Windows XP中可以直接从命令提示符窗口中输入debug打开。而我就比较闲的蛋疼了🤣，自己在虚拟机里装了一个MS-DOS6.22en🙃，也就是说我装了一个图形化显示界面出现之前就存在的系统……其实过程也是真的很麻烦。😨不过装好之后还是挺有成就感的！</li>
+</ul>
+<p>这是MS-DOS第一次启动的页面，朴实无华，只有一个命令提示符，而我们要在这里输入debug进入debug程序<br>
+<img src="https://limonene0x.github.io/post-images/1583410329757.jpg" alt="" loading="lazy"></p>
+<ul>
+<li>Debug程序的提示符是一个减号（-），最基本的，输入<code>r</code>即可查看当前寄存器内的数值，使用<code>r [寄存器名]</code>可以在：后面输入新的寄存器数值。</li>
+<li>而输入<code>d</code>则可以查看当前的内存数据，可以使用<code>d [CS]:[IP]</code>来查看特定地址的内存数据。<br>
+<img src="https://limonene0x.github.io/post-images/1583410908259.jpg" alt="" loading="lazy"></li>
+<li>输入<code>u</code>可以将当前[CS]:[IP]之后指向的地址的内存数据解释为汇编指令显示出来，使用<code>u [CS]:[IP]</code>可以将制定位置后面的内存解释为汇编指令。</li>
+</ul>
+<blockquote>
+<p>Write By Limonene0x<br>
+2020.03.05-20:23:50</p>
 </blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<ul>
-<li>本站是出于学习用途于GitHub搭建的个人静态博客网站，请勿做出其他解读</li>
-</ul>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<ul>
-<li>我是Limonene0x，当然你也可以叫我数据线，这样比较顺耳</li>
-</ul>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<ul>
-<li>媒体处理可能更适合我</li>
-</ul>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<ul>
-<li>在页面左下角可以找到我的GitHub个人页面和知乎个人页面哦</li>
-</ul>
 
             </div>
             
+              <div class="tag-container">
+                
+                  <a href="https://limonene0x.github.io/tag/QZRhNDY86/" class="tag">
+                    Study
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://limonene0x.github.io/post/hello-world/">
+                  <h3 class="post-title">
+                    Hello World
+                  </h3>
+                </a>
+              </div>
             
 
             
