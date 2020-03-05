@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://limonene0x.github.io</id>
     <title>Limonene0x_Disk</title>
-    <updated>2020-03-05T03:26:50.346Z</updated>
+    <updated>2020-03-05T03:31:37.035Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://limonene0x.github.io"/>
     <link rel="self" href="https://limonene0x.github.io/atom.xml"/>
@@ -16,7 +16,5 @@
         <link href="https://limonene0x.github.io/post/hello-world/">
         </link>
         <updated>2020-03-05T03:10:44.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="终于我github上的网站搭建起来了">终于，我GitHub上的网站搭建起来了！</h2>
-]]></content>
     </entry>
 </feed>
